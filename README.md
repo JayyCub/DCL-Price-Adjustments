@@ -1,5 +1,10 @@
 # DCL Total Prices
 
+***AI Transparency*** - This project was created on October 21st, 2026 using Claude Code. All users can view the code and configuration for it here in this repo. There are no scripts or code that runs on your computer or web browser. Please see the sections below for more technical details.
+
+
+## About 
+
 A tiny Chrome extension that keeps Disney Cruise Line prices shown as the **total price for your stateroom** instead of an average per person.
 
 ## Before and after
