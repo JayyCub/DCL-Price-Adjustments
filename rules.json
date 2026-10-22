@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||tt.omtrdc.net/rest/v1/delivery",
+      "initiatorDomains": ["disneycruise.disney.go.com"],
+      "resourceTypes": ["xmlhttprequest", "ping", "other"]
+    }
+  }
+]

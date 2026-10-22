@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DCL Total Prices",
+  "version": "1.0.0",
+  "description": "Keeps Disney Cruise Line prices shown as stateroom totals by blocking the Adobe Target A/B test that rewrites them as averages per person.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*.omtrdc.net/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      { "id": "block_target", "enabled": true, "path": "rules.json" }
+    ]
+  }
+}
